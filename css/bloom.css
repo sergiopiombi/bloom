@@ -1,0 +1,14 @@
+body{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.barra-header{
+	/* barra */
+	background: red;
+	height: 50px;
+	width: 100%;
+	position: fixed;
+	margin: 0;
+	padding: 0;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+</head>
+<body style="margin:0;padding: 0;box-sizing: border-box;">
+	<form action="">
+		<label for="nombre">
+			<span>Nombre</span>
+			<input type="text" name="nombre" id="nombre" autocomplete="name" required="" 
+			placeholder="Nombre">
+		</label>
+		<label for="password">
+			<span>password</span>
+			<input type="password" name="password" id="password" autocomplete="password" required="" placeholder="Password">
+		</label>
+		<label for="mail">
+			<span>Mail</span>
+			<input type="text" name="mail" id="mail" autocomplete="email" required="" 
+			placeholder="ejemplo@mail.com">
+		</label>
+		<label for="pais">
+			<span>Pais</span>
+			<input type="text" name="pais" id="pais" autocomplete="county">
+		</label>
+		<label for="cp">
+			<span>cp</span>
+			<input type="text" name="cp" id="cp" autocomplete="postal-code">
+		</label>
+		<label for="fecha">
+			<span>fecha</span>
+			<input type="date" name="fecha" id="fecha" autocomplete="">
+		</label>
+		<label for="hora">
+			<span>fecha</span>
+			<input type="time" name="hora" id="hora" autocomplete="">
+		</label>
+		<label>
+			<span>Combo</span>
+			<input list="cosas">
+				<datalist id="cosas">
+					<option value="Pepe"></option>
+					<option value="Casa"></option>			
+				</datalist>
+		</label>
+		<input type="submit" name="enviar">
+	</form>
+</body>
+</html>
