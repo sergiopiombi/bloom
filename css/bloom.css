@@ -1,7 +1,12 @@
-body{
+*{
 	margin:0;
 	padding: 0;
 	box-sizing: border-box;
+}
+
+html{
+	/* para poder utilizar rem */
+	font-size: 62.5%;
 }
 .barra-header{
 	/* barra */
@@ -12,3 +17,5 @@ body{
 	margin: 0;
 	padding: 0;
 }
+
+
